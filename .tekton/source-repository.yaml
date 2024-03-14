@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: quarrelsome-tern-python-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/quarrelsome-tern-python
